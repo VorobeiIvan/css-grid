@@ -4,4 +4,21 @@
 
 .container {
   display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  border: 10px solid;
+  height: 500px;
+
+  justify-items: center;
+  align-items: center;
+
+  justify-content: space-around;
+  align-content: center;
+
+
+}
+
+.item-4 {
+  justify-self: self-start;
+  align-self: self-start;
 }
