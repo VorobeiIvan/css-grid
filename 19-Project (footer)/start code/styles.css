@@ -57,7 +57,7 @@
   }
 }
 
-.post > a {
+.post>a {
   position: relative;
   color: var(--common-white);
 }
@@ -101,9 +101,11 @@
   .blog {
     grid-area: b;
   }
+
   .social {
     grid-area: s;
   }
+
   .video {
     grid-area: v;
   }
@@ -210,4 +212,11 @@
 .footer {
   padding: 16px;
   background-color: var(--blue-light);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  column-gap: 8px;
 }
